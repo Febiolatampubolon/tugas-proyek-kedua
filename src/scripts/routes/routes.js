@@ -1,0 +1,17 @@
+import HomePage from '../pages/home/home-page';
+import AboutPage from '../pages/about/about-page';
+import LoginPage from '../pages/auth/login-page';
+import RegisterPage from '../pages/auth/register-page';
+import MapPage from '../pages/map/map-page';
+import AddStoryPage from '../pages/story/add-story-page';
+
+const routes = {
+  '/': new HomePage(),
+  '/about': new AboutPage(),
+  '/login': new LoginPage(),
+  '/register': new RegisterPage(),
+  '/map': new MapPage(),
+  '/add-story': new AddStoryPage(),
+};
+
+export default routes;
