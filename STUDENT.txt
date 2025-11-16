@@ -1,9 +1,4 @@
-APP_URL=https://your-deployment-url.com
-MAP_SERVICE_API_KEY=YOUR_OPENSTREETMAP_API_KEY_HERE
 
-# Deployment URL
-# Silakan ganti URL di atas dengan URL deployment Anda setelah melakukan deploy
-# Platform yang bisa digunakan:
-# - GitHub Pages
-# - Firebase Hosting
-# - Netlify
+Email: <tampubolonfebiola@gmail.com>
+URL Deploy: https://febiolatampubolon.github.io/tugas-proyek-kedua/
+Repo GitHub: https://github.com/Febiolatampubolon/tugas-proyek-kedua
