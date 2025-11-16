@@ -1,0 +1,50 @@
+{
+  "name": "Story Maps App",
+  "short_name": "Story Maps",
+  "description": "Aplikasi untuk berbagi cerita dengan lokasi di peta",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4a90e2",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/logo.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Story Maps Homepage"
+    }
+  ],
+  "categories": ["maps", "social", "travel"],
+  "shortcuts": [
+    {
+      "name": "Add Story",
+      "short_name": "Add",
+      "description": "Tambahkan cerita baru",
+      "url": "/#/add-story",
+      "icons": [{ "src": "/favicon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "View Map",
+      "short_name": "Map",
+      "description": "Lihat peta cerita",
+      "url": "/#/map",
+      "icons": [{ "src": "/favicon.png", "sizes": "96x96" }]
+    }
+  ]
+}
